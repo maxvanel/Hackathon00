@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "alexana";
+    src: url("font/Alexana_Neue.ttf");
+}
+@font-face {
+    font-family: "Spin cycle";
+    src: url("font/SPINC___.TTF");
+}
+header{
+    height: 90px;
+    margin: 0px;
+    display: flex;
+}
+body{
+    background-image: url("bg.jpg");
+    background-size: 100%;
+}
+
+.vehicule{
+    width: 402px;
+    height: 231px;
+    border-radius: 25% 10%;
+    border-style: groove;
+    border-color:teal;
+}
+#voiture_volante{
+    box-sizing: content-box;
+}
+
+
+h1{
+    font-family: "alexana";
+    text-align: center;
+    margin: 0 auto;
+    font-size: 60px;
+    color: white;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    justify-content: center;
+    /*margin-left: 25%;*/
+}
+
+#Welcome{
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#div_vv{
+    margin-left : 10%;
+    margin-top: 7%;
+    display: flex;
+}
+
+#voiture_volante:hover{
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+p{
+    font-family: "Spin cycle";
+    color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+    text-align: justify;
+    vertical-align: middle;
+}
+
+#text{
+    width: 30%;
+}
+
+.linkimg{
+    font-family: "Spin cycle";
+    color: rgb(179, 244, 247);
+    margin-left: 4%;
+    text-align: justify;
+    vertical-align: middle;
+}
+#div_hyperloop{
+    margin-right : 10%;
+    margin-top: 4%;
+    justify-content: right;
+    display: flex;
+}
