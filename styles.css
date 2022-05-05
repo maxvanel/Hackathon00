@@ -7,15 +7,14 @@
     src: url("font/SPINC___.TTF");
 }
 
-.headcenter{
-    /*height: 90px;*/
+.headcenter {
     margin: 0px;
     justify-content: center;
     text-align: center;
 }
 
-body{
-    background-image: url("bg.jpg");
+body {
+    background-image: url("images/bg.jpg");
     background-size: 100%;
 }
 
@@ -24,12 +23,15 @@ body{
     height: 231px;
     border-radius: 25% 10%;
     border-style: groove;
-    border-color:teal;
-}
-#voiture_volante{
+    border-color: teal;
     box-sizing: content-box;
 }
 
+.vehicule:hover{
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
 
 h1{
     font-family: "alexana";
@@ -49,15 +51,14 @@ h1{
     width: 100px;
     height: 100px;
     justify-content: center;
-    /*margin-left: 25%;*/
 }
 
-#welcome{
+.welcome{
     justify-content: center;
     margin: 0 auto;
 }
 
-#div_vv{
+.div_vv{
     margin-left : 10%;
     margin-top: 7%;
     display: flex;
@@ -69,12 +70,6 @@ h1{
     animation: anim 1s linear forwards 1s;
 }
 
-#voiture_volante:hover{
-    -ms-transform: scale(1.1); /* IE 9 */
-    -webkit-transform: scale(1.1); /* Safari 3-8 */
-    transform: scale(1.1);
-}
-
 p{
     font-family: "Spin cycle";
     color: white;
@@ -84,7 +79,7 @@ p{
     vertical-align: middle;
 }
 
-#text{
+.text{
     width: 30%;
 }
 
@@ -95,7 +90,8 @@ p{
     text-align: justify;
     vertical-align: middle;
 }
-#div_hyperloop{
+
+.div_hyperloop{
     margin-right : 10%;
     margin-top: 4%;
     justify-content: right;
@@ -107,7 +103,8 @@ p{
     -ms-animation: anim 1s linear forwards 1.5s;
     animation: anim 1s linear forwards 1.5s;
 }
-#div_seabubble{
+
+.div_seabubble{
     margin-left : 10%;
     margin-top: 4%;
     display: flex;
