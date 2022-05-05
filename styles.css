@@ -167,19 +167,11 @@ form {
     border:0;
     font-family:'Montserrat',sans-serif;
     transition:all .3s;
-    border-bottom:2px solid #bebed2
+    border-bottom:2px solid #bebed2;
 
 }
   input:focus{
-      border-bottom:2px solid #78788c
-}
-
-  p:before{
-      content:attr(type);
-      display:block;
-      margin:28px 0 0;
-      font-size:14px;
-      color:#5a5a5a
+      border-bottom:2px solid #78788c;
 }
 
   button{
@@ -190,12 +182,12 @@ form {
       border:2px solid #78788c;
       background:0;color:#5a5a6e;
       cursor:pointer;
-      transition:all .3s
+      transition:all .3s;
 }
 
   button:hover{
       background:#78788c;
-      color:#fff
+      color:#fff;
 }
   
   input:focus, textarea:focus {
